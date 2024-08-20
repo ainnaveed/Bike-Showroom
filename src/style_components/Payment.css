@@ -1,0 +1,29 @@
+.payment-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.paymenth2{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.unauthenticated-message{
+  text-align: center;
+}
+
+.payment-image {
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:1251px){
+  .payment-container{
+    gap: 50px;
+  }
+}

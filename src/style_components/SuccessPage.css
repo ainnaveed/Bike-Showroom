@@ -1,0 +1,23 @@
+.success-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 150px;
+    border: double greenyellow
+}
+  
+.success-heading {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+  
+.success-message {
+    color: #4caf50;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
